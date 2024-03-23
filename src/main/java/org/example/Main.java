@@ -4,8 +4,8 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        List<String> fluits = List.of("apple", "orange", "banana", "peach");
-        boolean results = fluits.stream().anyMatch(fluit -> fluit.equals("apple"));
+        List<String> fruits = List.of("apple", "orange", "banana", "peach");
+        boolean results = fruits.stream().anyMatch(fruit -> fruit.equals("apple"));
         System.out.println(results);
     }
 }
